@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bluefish.domain.inter.IArticleOperation">
+    <resultMap id="ArticleListResult" type="Article">
+        <id column="id" property="m_id"/>
+        <id column="userid" property="m_userid"/>
+        <id column="title" property="m_title"/>
+        <id column="content" property="m_content"/>
+    </resultMap>
+
+    <resultMap id="resultListUser" type="User">
+        <id column="aid" property="id"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <resultMap id="ArticleListResultCross" type="Article">
+        <id column="id" property="m_id"/>
+        <result column="title" property="m_title"/>
+        <result column="content" property="m_content"/>
+        <!--<association property="user" javaType="User">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+            <result column="age" property="age"/>
+        </association> -->
+        <association property="user" javaType="User" resultMap="resultListUser"/>
+    </resultMap>
+
+    <select id="getAllArticle" resultMap="ArticleListResult">
+        select * from article
+    </select>
+
+    <select id="getArticleByUserId" resultMap="ArticleListResultCross" parameterType="int">
+        select article.id aid,article.userid,article.title,article.content, users.id,users.name,users.age
+        from article,users
+        where article.userid = users.id and users.id = #{id}
+    </select>
+</mapper>
