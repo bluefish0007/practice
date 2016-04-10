@@ -1,0 +1,598 @@
+2016-03-29 20:26:36  [ main:1 ] - [ DEBUG ]  This is debug message.
+2016-03-29 20:26:36  [ main:8 ] - [ INFO ]  This is info message.
+2016-03-29 20:26:36  [ main:9 ] - [ ERROR ]  This is error message.
+2016-03-29 20:29:01  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@87a1904: startup date [Tue Mar 29 20:29:01 CST 2016]; root of context hierarchy
+2016-03-29 20:29:01  [ main:140 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-idol2.xml]
+2016-03-29 20:29:01  [ main:171 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-29 20:29:01  [ main:232 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2016-03-29 20:29:01  [ main:236 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd}
+2016-03-29 20:29:01  [ main:237 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-03-29 20:29:01  [ main:309 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-03-29 20:29:01  [ main:320 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-03-29 20:29:01  [ main:331 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd
+2016-03-29 20:29:01  [ main:355 ] - [ DEBUG ]  Loading bean definitions
+2016-03-29 20:29:01  [ main:369 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-03-29 20:29:01  [ main:428 ] - [ DEBUG ]  Looking for matching resources in directory tree [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol]
+2016-03-29 20:29:01  [ main:429 ] - [ DEBUG ]  Searching directory [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol] for files matching pattern [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/**/*.class]
+2016-03-29 20:29:01  [ main:447 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/springinaction/springidol/**/*.class] to resources [file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Audience.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium$StringedInstrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrumentalist.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Juggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/JugglerTest.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/OneManBand.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Performer.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PerformerException.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Piano.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Poem.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PoeticJuggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Saxophone.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Sonnet29.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$1.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$StageSingleton.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage.class]]
+2016-03-29 20:29:01  [ main:498 ] - [ DEBUG ]  Identified candidate component class: file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class]
+2016-03-29 20:29:01  [ main:576 ] - [ DEBUG ]  Loaded 13 bean definitions from location pattern [spring-idol2.xml]
+2016-03-29 20:29:01  [ main:579 ] - [ DEBUG ]  Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@87a1904: org.springframework.beans.factory.support.DefaultListableBeanFactory@1a2639d1: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:29:02  [ main:603 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:29:02  [ main:603 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:29:02  [ main:633 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:634 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:29:02  [ main:693 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:694 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:696 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:696 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:697 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:698 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:699 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:699 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:700 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:29:02  [ main:700 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:29:02  [ main:707 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:707 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:29:02  [ main:708 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:29:02  [ main:708 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:29:02  [ main:726 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:775 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:29:02  [ main:783 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@6c70ab33]
+2016-03-29 20:29:02  [ main:787 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@a0d20b9]
+2016-03-29 20:29:02  [ main:798 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a2639d1: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:29:02  [ main:798 ] - [ DEBUG ]  Creating shared instance of singleton bean 'guitar'
+2016-03-29 20:29:02  [ main:799 ] - [ DEBUG ]  Creating instance of bean 'guitar'
+2016-03-29 20:29:02  [ main:800 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:800 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:807 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:29:02  [ main:818 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:29:02  [ main:862 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:29:02  [ main:863 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1008 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1009 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1'
+2016-03-29 20:29:02  [ main:1031 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1'
+2016-03-29 20:29:02  [ main:1059 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:29:02  [ main:1251 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:1256 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1257 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1257 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1257 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:29:02  [ main:1258 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:29:02  [ main:1259 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:29:02  [ main:1259 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1260 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1261 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#3'
+2016-03-29 20:29:02  [ main:1262 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#3'
+2016-03-29 20:29:02  [ main:1263 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:29:02  [ main:1264 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:1265 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1265 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1266 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1266 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:29:02  [ main:1268 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:29:02  [ main:1269 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:29:02  [ main:1269 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1270 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1271 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#5'
+2016-03-29 20:29:02  [ main:1272 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#5'
+2016-03-29 20:29:02  [ main:1293 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:29:02  [ main:1295 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:1295 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1297 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1298 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1298 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:29:02  [ main:1300 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:29:02  [ main:1300 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:29:02  [ main:1301 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1302 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:29:02  [ main:1302 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#7'
+2016-03-29 20:29:02  [ main:1303 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#7'
+2016-03-29 20:29:02  [ main:1321 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:29:02  [ main:1322 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:1323 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1324 ] - [ DEBUG ]  Eagerly caching bean 'guitar' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:1327 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1327 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1328 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1328 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1328 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1328 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1328 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1329 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1350 ] - [ DEBUG ]  Finished creating instance of bean 'guitar'
+2016-03-29 20:29:02  [ main:1351 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:29:02  [ main:1351 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:1351 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:29:02  [ main:1351 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:29:02  [ main:1352 ] - [ DEBUG ]  Creating shared instance of singleton bean 'kenny'
+2016-03-29 20:29:02  [ main:1352 ] - [ DEBUG ]  Creating instance of bean 'kenny'
+2016-03-29 20:29:02  [ main:1352 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1353 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1353 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1353 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1364 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:29:02  [ main:1365 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:29:02  [ main:1366 ] - [ DEBUG ]  Eagerly caching bean 'kenny' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:1370 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:29:02  [ main:1373 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:29:02  [ main:1374 ] - [ DEBUG ]  Returning cached instance of singleton bean 'guitar'
+2016-03-29 20:29:02  [ main:1375 ] - [ DEBUG ]  Autowiring by type from bean name 'kenny' to bean named 'guitar'
+2016-03-29 20:29:02  [ main:1376 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1376 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1376 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1377 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1377 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1377 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1377 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1378 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1433 ] - [ DEBUG ]  Creating implicit proxy for bean 'kenny' with 0 common interceptors and 5 specific interceptors
+2016-03-29 20:29:02  [ main:1435 ] - [ DEBUG ]  Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.springinaction.springidol.Instrumentalist@5f556649]
+2016-03-29 20:29:02  [ main:1449 ] - [ DEBUG ]  Finished creating instance of bean 'kenny'
+2016-03-29 20:29:02  [ main:1449 ] - [ DEBUG ]  Creating shared instance of singleton bean 'audience'
+2016-03-29 20:29:02  [ main:1450 ] - [ DEBUG ]  Creating instance of bean 'audience'
+2016-03-29 20:29:02  [ main:1452 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1453 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1453 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1453 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1454 ] - [ DEBUG ]  Eagerly caching bean 'audience' to allow for resolving potential circular references
+2016-03-29 20:29:02  [ main:1484 ] - [ DEBUG ]  Finished creating instance of bean 'audience'
+2016-03-29 20:29:02  [ main:1484 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:29:02  [ main:1484 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:29:02  [ main:1484 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:29:02  [ main:1485 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:29:02  [ main:1485 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:29:02  [ main:1487 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@3205d86a]
+2016-03-29 20:29:02  [ main:1488 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-03-29 20:29:02  [ main:1493 ] - [ DEBUG ]  Returning cached instance of singleton bean 'kenny'
+2016-03-29 20:29:02  [ main:1509 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:29:02  [ main:1509 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:29:02  [ main:1510 ] - [ INFO ]  Playsey
+2016-03-29 20:29:02  [ main:1510 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:30:20  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59d0f57e: startup date [Tue Mar 29 20:30:20 CST 2016]; root of context hierarchy
+2016-03-29 20:30:20  [ main:188 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-idol2.xml]
+2016-03-29 20:30:21  [ main:222 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-29 20:30:21  [ main:279 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2016-03-29 20:30:21  [ main:283 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd}
+2016-03-29 20:30:21  [ main:285 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-03-29 20:30:21  [ main:371 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-03-29 20:30:21  [ main:383 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-03-29 20:30:21  [ main:400 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd
+2016-03-29 20:30:21  [ main:422 ] - [ DEBUG ]  Loading bean definitions
+2016-03-29 20:30:21  [ main:441 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-03-29 20:30:21  [ main:577 ] - [ DEBUG ]  Looking for matching resources in directory tree [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol]
+2016-03-29 20:30:21  [ main:578 ] - [ DEBUG ]  Searching directory [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol] for files matching pattern [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/**/*.class]
+2016-03-29 20:30:21  [ main:597 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/springinaction/springidol/**/*.class] to resources [file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Audience.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium$StringedInstrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrumentalist.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Juggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/JugglerTest.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/OneManBand.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Performer.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PerformerException.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Piano.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Poem.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PoeticJuggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Saxophone.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Sonnet29.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$1.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$StageSingleton.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage.class]]
+2016-03-29 20:30:21  [ main:666 ] - [ DEBUG ]  Identified candidate component class: file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class]
+2016-03-29 20:30:21  [ main:776 ] - [ DEBUG ]  Loaded 13 bean definitions from location pattern [spring-idol2.xml]
+2016-03-29 20:30:21  [ main:779 ] - [ DEBUG ]  Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@59d0f57e: org.springframework.beans.factory.support.DefaultListableBeanFactory@25c3b70f: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:30:21  [ main:838 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:30:21  [ main:839 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:30:21  [ main:897 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:30:21  [ main:900 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:30:21  [ main:944 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:30:21  [ main:944 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:30:21  [ main:945 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:30:21  [ main:945 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:30:21  [ main:946 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:30:21  [ main:946 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:30:21  [ main:948 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:30:21  [ main:949 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:30:21  [ main:949 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:30:21  [ main:949 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:30:21  [ main:960 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:30:21  [ main:961 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:30:21  [ main:962 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:30:21  [ main:962 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:30:21  [ main:978 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-03-29 20:30:21  [ main:1068 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:30:21  [ main:1074 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@462c10dc]
+2016-03-29 20:30:21  [ main:1079 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@107dd383]
+2016-03-29 20:30:21  [ main:1099 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25c3b70f: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:30:21  [ main:1100 ] - [ DEBUG ]  Creating shared instance of singleton bean 'guitar'
+2016-03-29 20:30:21  [ main:1100 ] - [ DEBUG ]  Creating instance of bean 'guitar'
+2016-03-29 20:30:21  [ main:1109 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:21  [ main:1110 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:21  [ main:1119 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:30:21  [ main:1126 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:30:21  [ main:1158 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:30:21  [ main:1158 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1350 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1351 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1'
+2016-03-29 20:30:22  [ main:1357 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1'
+2016-03-29 20:30:22  [ main:1379 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:30:22  [ main:1606 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' to allow for resolving potential circular references
+2016-03-29 20:30:22  [ main:1610 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1610 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1610 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1611 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:30:22  [ main:1611 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:30:22  [ main:1612 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:30:22  [ main:1612 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1613 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1613 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#3'
+2016-03-29 20:30:22  [ main:1614 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#3'
+2016-03-29 20:30:22  [ main:1615 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:30:22  [ main:1616 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' to allow for resolving potential circular references
+2016-03-29 20:30:22  [ main:1617 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1617 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1618 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1618 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:30:22  [ main:1620 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:30:22  [ main:1621 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:30:22  [ main:1622 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1623 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1624 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#5'
+2016-03-29 20:30:22  [ main:1624 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#5'
+2016-03-29 20:30:22  [ main:1633 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:30:22  [ main:1634 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' to allow for resolving potential circular references
+2016-03-29 20:30:22  [ main:1634 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1635 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1636 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1637 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:30:22  [ main:1638 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:30:22  [ main:1639 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:30:22  [ main:1640 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1641 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:30:22  [ main:1641 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#7'
+2016-03-29 20:30:22  [ main:1642 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#7'
+2016-03-29 20:30:22  [ main:1651 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:30:22  [ main:1652 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' to allow for resolving potential circular references
+2016-03-29 20:30:22  [ main:1652 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1653 ] - [ DEBUG ]  Eagerly caching bean 'guitar' to allow for resolving potential circular references
+2016-03-29 20:30:22  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1657 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1657 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1657 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1658 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1658 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1685 ] - [ DEBUG ]  Finished creating instance of bean 'guitar'
+2016-03-29 20:30:22  [ main:1686 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:30:22  [ main:1686 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:30:22  [ main:1686 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:30:22  [ main:1686 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:30:22  [ main:1687 ] - [ DEBUG ]  Creating shared instance of singleton bean 'kenny'
+2016-03-29 20:30:22  [ main:1687 ] - [ DEBUG ]  Creating instance of bean 'kenny'
+2016-03-29 20:30:22  [ main:1687 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1687 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1687 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1688 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1697 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:30:22  [ main:1698 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:30:22  [ main:1698 ] - [ DEBUG ]  Eagerly caching bean 'kenny' to allow for resolving potential circular references
+2016-03-29 20:30:22  [ main:1701 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:30:22  [ main:1706 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:30:22  [ main:1708 ] - [ DEBUG ]  Returning cached instance of singleton bean 'guitar'
+2016-03-29 20:30:22  [ main:1708 ] - [ DEBUG ]  Autowiring by type from bean name 'kenny' to bean named 'guitar'
+2016-03-29 20:30:22  [ main:1709 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1709 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1710 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1710 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1710 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1711 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1711 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1712 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1789 ] - [ DEBUG ]  Creating implicit proxy for bean 'kenny' with 0 common interceptors and 5 specific interceptors
+2016-03-29 20:30:22  [ main:1791 ] - [ DEBUG ]  Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.springinaction.springidol.Instrumentalist@27f6f3d1]
+2016-03-29 20:30:22  [ main:1800 ] - [ DEBUG ]  Finished creating instance of bean 'kenny'
+2016-03-29 20:30:22  [ main:1801 ] - [ DEBUG ]  Creating shared instance of singleton bean 'audience'
+2016-03-29 20:30:22  [ main:1801 ] - [ DEBUG ]  Creating instance of bean 'audience'
+2016-03-29 20:30:22  [ main:1801 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1802 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1802 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1802 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1803 ] - [ DEBUG ]  Eagerly caching bean 'audience' to allow for resolving potential circular references
+2016-03-29 20:30:22  [ main:1805 ] - [ DEBUG ]  Finished creating instance of bean 'audience'
+2016-03-29 20:30:22  [ main:1806 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:30:22  [ main:1806 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:30:22  [ main:1806 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:30:22  [ main:1806 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:30:22  [ main:1806 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:30:22  [ main:1810 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1a255a5c]
+2016-03-29 20:30:22  [ main:1810 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-03-29 20:30:22  [ main:1812 ] - [ DEBUG ]  Returning cached instance of singleton bean 'kenny'
+2016-03-29 20:30:22  [ main:1826 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:30:22  [ main:1827 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:30:22  [ main:1827 ] - [ INFO ]  Playsey
+2016-03-29 20:30:22  [ main:1828 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:31:14  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59d0f57e: startup date [Tue Mar 29 20:31:14 CST 2016]; root of context hierarchy
+2016-03-29 20:31:14  [ main:163 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-idol2.xml]
+2016-03-29 20:31:14  [ main:196 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-29 20:31:14  [ main:264 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2016-03-29 20:31:14  [ main:268 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd}
+2016-03-29 20:31:14  [ main:271 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-03-29 20:31:14  [ main:351 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-03-29 20:31:15  [ main:367 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-03-29 20:31:15  [ main:388 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd
+2016-03-29 20:31:15  [ main:423 ] - [ DEBUG ]  Loading bean definitions
+2016-03-29 20:31:15  [ main:437 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-03-29 20:31:15  [ main:512 ] - [ DEBUG ]  Looking for matching resources in directory tree [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol]
+2016-03-29 20:31:15  [ main:513 ] - [ DEBUG ]  Searching directory [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol] for files matching pattern [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/**/*.class]
+2016-03-29 20:31:15  [ main:535 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/springinaction/springidol/**/*.class] to resources [file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Audience.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium$StringedInstrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrumentalist.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Juggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/JugglerTest.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/OneManBand.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Performer.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PerformerException.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Piano.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Poem.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PoeticJuggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Saxophone.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Sonnet29.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$1.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$StageSingleton.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage.class]]
+2016-03-29 20:31:15  [ main:569 ] - [ DEBUG ]  Identified candidate component class: file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class]
+2016-03-29 20:31:15  [ main:662 ] - [ DEBUG ]  Loaded 13 bean definitions from location pattern [spring-idol2.xml]
+2016-03-29 20:31:15  [ main:668 ] - [ DEBUG ]  Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@59d0f57e: org.springframework.beans.factory.support.DefaultListableBeanFactory@54274d27: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:31:15  [ main:706 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:31:15  [ main:706 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:31:15  [ main:754 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:31:15  [ main:757 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:31:15  [ main:800 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:31:15  [ main:800 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:31:15  [ main:801 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:31:15  [ main:801 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:31:15  [ main:802 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:31:15  [ main:802 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:31:15  [ main:808 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:31:15  [ main:814 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:31:15  [ main:814 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:31:15  [ main:815 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:31:15  [ main:824 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:31:15  [ main:824 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:31:15  [ main:828 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:31:15  [ main:828 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:31:15  [ main:853 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-03-29 20:31:15  [ main:951 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:31:15  [ main:955 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@462c10dc]
+2016-03-29 20:31:15  [ main:959 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@107dd383]
+2016-03-29 20:31:15  [ main:961 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54274d27: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:31:15  [ main:961 ] - [ DEBUG ]  Creating shared instance of singleton bean 'guitar'
+2016-03-29 20:31:15  [ main:962 ] - [ DEBUG ]  Creating instance of bean 'guitar'
+2016-03-29 20:31:15  [ main:963 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:15  [ main:963 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:15  [ main:968 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:31:15  [ main:973 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:31:15  [ main:1016 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:31:15  [ main:1017 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:31:15  [ main:1165 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:31:15  [ main:1166 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1'
+2016-03-29 20:31:15  [ main:1175 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1'
+2016-03-29 20:31:15  [ main:1208 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:31:16  [ main:1493 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' to allow for resolving potential circular references
+2016-03-29 20:31:16  [ main:1508 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1509 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1516 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1516 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:31:16  [ main:1517 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:31:16  [ main:1517 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:31:16  [ main:1518 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:31:16  [ main:1519 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:31:16  [ main:1520 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#3'
+2016-03-29 20:31:16  [ main:1523 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#3'
+2016-03-29 20:31:16  [ main:1525 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:31:16  [ main:1530 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' to allow for resolving potential circular references
+2016-03-29 20:31:16  [ main:1531 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1532 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1532 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1533 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:31:16  [ main:1534 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:31:16  [ main:1535 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:31:16  [ main:1537 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:31:16  [ main:1538 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:31:16  [ main:1539 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#5'
+2016-03-29 20:31:16  [ main:1539 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#5'
+2016-03-29 20:31:16  [ main:1550 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:31:16  [ main:1551 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' to allow for resolving potential circular references
+2016-03-29 20:31:16  [ main:1551 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1551 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1552 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1552 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:31:16  [ main:1553 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:31:16  [ main:1555 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:31:16  [ main:1557 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:31:16  [ main:1560 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:31:16  [ main:1562 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#7'
+2016-03-29 20:31:16  [ main:1563 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#7'
+2016-03-29 20:31:16  [ main:1574 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:31:16  [ main:1585 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' to allow for resolving potential circular references
+2016-03-29 20:31:16  [ main:1586 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1587 ] - [ DEBUG ]  Eagerly caching bean 'guitar' to allow for resolving potential circular references
+2016-03-29 20:31:16  [ main:1590 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1590 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1590 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1591 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1591 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1591 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1591 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1591 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1609 ] - [ DEBUG ]  Finished creating instance of bean 'guitar'
+2016-03-29 20:31:16  [ main:1610 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:31:16  [ main:1610 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:31:16  [ main:1611 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:31:16  [ main:1612 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:31:16  [ main:1616 ] - [ DEBUG ]  Creating shared instance of singleton bean 'kenny'
+2016-03-29 20:31:16  [ main:1616 ] - [ DEBUG ]  Creating instance of bean 'kenny'
+2016-03-29 20:31:16  [ main:1616 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1617 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1617 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1617 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1637 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:31:16  [ main:1644 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:31:16  [ main:1644 ] - [ DEBUG ]  Eagerly caching bean 'kenny' to allow for resolving potential circular references
+2016-03-29 20:31:16  [ main:1647 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:31:16  [ main:1650 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:31:16  [ main:1651 ] - [ DEBUG ]  Returning cached instance of singleton bean 'guitar'
+2016-03-29 20:31:16  [ main:1652 ] - [ DEBUG ]  Autowiring by type from bean name 'kenny' to bean named 'guitar'
+2016-03-29 20:31:16  [ main:1652 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1653 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1654 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1654 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1655 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1657 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1723 ] - [ DEBUG ]  Creating implicit proxy for bean 'kenny' with 0 common interceptors and 5 specific interceptors
+2016-03-29 20:31:16  [ main:1726 ] - [ DEBUG ]  Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.springinaction.springidol.Instrumentalist@20349e80]
+2016-03-29 20:31:16  [ main:1738 ] - [ DEBUG ]  Finished creating instance of bean 'kenny'
+2016-03-29 20:31:16  [ main:1739 ] - [ DEBUG ]  Creating shared instance of singleton bean 'audience'
+2016-03-29 20:31:16  [ main:1739 ] - [ DEBUG ]  Creating instance of bean 'audience'
+2016-03-29 20:31:16  [ main:1739 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1739 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1739 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1740 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1740 ] - [ DEBUG ]  Eagerly caching bean 'audience' to allow for resolving potential circular references
+2016-03-29 20:31:16  [ main:1743 ] - [ DEBUG ]  Finished creating instance of bean 'audience'
+2016-03-29 20:31:16  [ main:1743 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:31:16  [ main:1744 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:31:16  [ main:1744 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:31:16  [ main:1744 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:31:16  [ main:1744 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:31:16  [ main:1746 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@70028214]
+2016-03-29 20:31:16  [ main:1747 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-03-29 20:31:16  [ main:1748 ] - [ DEBUG ]  Returning cached instance of singleton bean 'kenny'
+2016-03-29 20:31:16  [ main:1759 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:31:16  [ main:1760 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:31:16  [ main:1761 ] - [ INFO ]  Playsey
+2016-03-29 20:31:16  [ main:1761 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:33:33  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59d0f57e: startup date [Tue Mar 29 20:33:33 CST 2016]; root of context hierarchy
+2016-03-29 20:33:33  [ main:183 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-idol2.xml]
+2016-03-29 20:33:33  [ main:217 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-29 20:33:33  [ main:276 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2016-03-29 20:33:33  [ main:280 ] - [ DEBUG ]  Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd}
+2016-03-29 20:33:33  [ main:282 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2016-03-29 20:33:33  [ main:369 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-03-29 20:33:33  [ main:380 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-03-29 20:33:33  [ main:390 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/aop/spring-aop-3.0.xsd] in classpath: org/springframework/aop/config/spring-aop-3.0.xsd
+2016-03-29 20:33:33  [ main:408 ] - [ DEBUG ]  Loading bean definitions
+2016-03-29 20:33:33  [ main:428 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-03-29 20:33:33  [ main:519 ] - [ DEBUG ]  Looking for matching resources in directory tree [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol]
+2016-03-29 20:33:33  [ main:520 ] - [ DEBUG ]  Searching directory [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol] for files matching pattern [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/**/*.class]
+2016-03-29 20:33:33  [ main:533 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/springinaction/springidol/**/*.class] to resources [file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Audience.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium$StringedInstrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Auditorium.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrument.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Instrumentalist.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Juggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/JugglerTest.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/OneManBand.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Performer.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PerformerException.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Piano.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Poem.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/PoeticJuggler.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Saxophone.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Sonnet29.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$1.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage$StageSingleton.class], file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Stage.class]]
+2016-03-29 20:33:33  [ main:570 ] - [ DEBUG ]  Identified candidate component class: file [/Users/tianjiyuan/IdeaProjects/SpringTester/target/classes/com/springinaction/springidol/Guitar.class]
+2016-03-29 20:33:33  [ main:638 ] - [ DEBUG ]  Loaded 13 bean definitions from location pattern [spring-idol2.xml]
+2016-03-29 20:33:33  [ main:641 ] - [ DEBUG ]  Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@59d0f57e: org.springframework.beans.factory.support.DefaultListableBeanFactory@603a669a: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:33:33  [ main:671 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:33:33  [ main:671 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:33:33  [ main:705 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:33:33  [ main:707 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:33:33  [ main:778 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:33:33  [ main:778 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:33:33  [ main:780 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:33:33  [ main:780 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:33:33  [ main:780 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:33:33  [ main:781 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:33:33  [ main:782 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:33:33  [ main:782 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:33:33  [ main:782 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:33:33  [ main:782 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:33:33  [ main:787 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-03-29 20:33:33  [ main:788 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:33:33  [ main:789 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:33:33  [ main:789 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:33:33  [ main:810 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:867 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:33:34  [ main:875 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@58f7d8e3]
+2016-03-29 20:33:34  [ main:880 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@63df56d6]
+2016-03-29 20:33:34  [ main:902 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@603a669a: defining beans [guitar,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,kenny,audience,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,perform]; root of factory hierarchy
+2016-03-29 20:33:34  [ main:914 ] - [ DEBUG ]  Creating shared instance of singleton bean 'guitar'
+2016-03-29 20:33:34  [ main:915 ] - [ DEBUG ]  Creating instance of bean 'guitar'
+2016-03-29 20:33:34  [ main:930 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:930 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:954 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:33:34  [ main:959 ] - [ DEBUG ]  Creating instance of bean '(inner bean)'
+2016-03-29 20:33:34  [ main:998 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:33:34  [ main:1000 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1197 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1200 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#1'
+2016-03-29 20:33:34  [ main:1223 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#1'
+2016-03-29 20:33:34  [ main:1249 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)'
+2016-03-29 20:33:34  [ main:1431 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:1442 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1443 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1443 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1444 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:33:34  [ main:1444 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2'
+2016-03-29 20:33:34  [ main:1445 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:33:34  [ main:1446 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1447 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1447 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#3'
+2016-03-29 20:33:34  [ main:1449 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#3'
+2016-03-29 20:33:34  [ main:1450 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2'
+2016-03-29 20:33:34  [ main:1451 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:1452 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1452 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1454 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1455 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:33:34  [ main:1457 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#4'
+2016-03-29 20:33:34  [ main:1458 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:33:34  [ main:1458 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1459 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1459 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#5'
+2016-03-29 20:33:34  [ main:1460 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#5'
+2016-03-29 20:33:34  [ main:1476 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#4'
+2016-03-29 20:33:34  [ main:1477 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:1478 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1478 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1479 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1479 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:33:34  [ main:1481 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#6'
+2016-03-29 20:33:34  [ main:1482 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:33:34  [ main:1482 ] - [ DEBUG ]  Creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1483 ] - [ DEBUG ]  Finished creating instance of bean 'perform'
+2016-03-29 20:33:34  [ main:1484 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#7'
+2016-03-29 20:33:34  [ main:1484 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#7'
+2016-03-29 20:33:34  [ main:1495 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#6'
+2016-03-29 20:33:34  [ main:1496 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:1497 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1498 ] - [ DEBUG ]  Eagerly caching bean 'guitar' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:1504 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1504 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1505 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1507 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1509 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1509 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1510 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1510 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1532 ] - [ DEBUG ]  Finished creating instance of bean 'guitar'
+2016-03-29 20:33:34  [ main:1532 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-29 20:33:34  [ main:1533 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-29 20:33:34  [ main:1536 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-29 20:33:34  [ main:1543 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-29 20:33:34  [ main:1543 ] - [ DEBUG ]  Creating shared instance of singleton bean 'kenny'
+2016-03-29 20:33:34  [ main:1544 ] - [ DEBUG ]  Creating instance of bean 'kenny'
+2016-03-29 20:33:34  [ main:1544 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1544 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1545 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1545 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1554 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:33:34  [ main:1555 ] - [ DEBUG ]  Found injected element on class [com.springinaction.springidol.Instrumentalist]: AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:33:34  [ main:1555 ] - [ DEBUG ]  Eagerly caching bean 'kenny' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:1558 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private java.lang.String com.springinaction.springidol.Instrumentalist.song
+2016-03-29 20:33:34  [ main:1561 ] - [ DEBUG ]  Processing injected method of bean 'kenny': AutowiredFieldElement for private com.springinaction.springidol.Instrument com.springinaction.springidol.Instrumentalist.instrument
+2016-03-29 20:33:34  [ main:1562 ] - [ DEBUG ]  Returning cached instance of singleton bean 'guitar'
+2016-03-29 20:33:34  [ main:1562 ] - [ DEBUG ]  Autowiring by type from bean name 'kenny' to bean named 'guitar'
+2016-03-29 20:33:34  [ main:1563 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1563 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1564 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1564 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1565 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1566 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1567 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1567 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1628 ] - [ DEBUG ]  Creating implicit proxy for bean 'kenny' with 0 common interceptors and 5 specific interceptors
+2016-03-29 20:33:34  [ main:1630 ] - [ DEBUG ]  Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.springinaction.springidol.Instrumentalist@17fdee7e]
+2016-03-29 20:33:34  [ main:1641 ] - [ DEBUG ]  Finished creating instance of bean 'kenny'
+2016-03-29 20:33:34  [ main:1641 ] - [ DEBUG ]  Creating shared instance of singleton bean 'audience'
+2016-03-29 20:33:34  [ main:1641 ] - [ DEBUG ]  Creating instance of bean 'audience'
+2016-03-29 20:33:34  [ main:1642 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1642 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1642 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1642 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1643 ] - [ DEBUG ]  Eagerly caching bean 'audience' to allow for resolving potential circular references
+2016-03-29 20:33:34  [ main:1646 ] - [ DEBUG ]  Finished creating instance of bean 'audience'
+2016-03-29 20:33:34  [ main:1647 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-03-29 20:33:34  [ main:1647 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2016-03-29 20:33:34  [ main:1647 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2016-03-29 20:33:34  [ main:1647 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2016-03-29 20:33:34  [ main:1647 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2016-03-29 20:33:34  [ main:1652 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4419a681]
+2016-03-29 20:33:34  [ main:1654 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-03-29 20:33:34  [ main:1656 ] - [ DEBUG ]  Returning cached instance of singleton bean 'kenny'
+2016-03-29 20:33:34  [ main:1666 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:33:34  [ main:1667 ] - [ INFO ]  The Audience is taking their seats.
+2016-03-29 20:33:34  [ main:1667 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:33:34  [ main:1667 ] - [ INFO ]  turn Off CellPhones
+2016-03-29 20:33:34  [ main:1668 ] - [ INFO ]  Playsey
+2016-03-29 20:33:34  [ main:1668 ] - [ DEBUG ]  Returning cached instance of singleton bean 'audience'
+2016-03-29 20:33:34  [ main:1668 ] - [ INFO ]  CLAP CLAP CLAP

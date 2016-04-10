@@ -3,8 +3,6 @@ package com.springinaction.springidol;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.util.Collection;
-import java.util.Map;
 import java.util.Properties;
 
 /**

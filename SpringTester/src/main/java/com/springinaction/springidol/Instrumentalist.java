@@ -1,5 +1,7 @@
 package com.springinaction.springidol;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
@@ -9,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * Created by tianjiyuan on 16/3/15.
  */
 public class Instrumentalist implements Performer {
-
+    private static Logger logger = Logger.getLogger(Instrumentalist.class);
     @Value("sey")
     private String song;
 
@@ -23,7 +25,8 @@ public class Instrumentalist implements Performer {
     }
 
     public void perform() throws PerformerException {
-        System.out.println("Play " + song);
+        //System.out.println("Play " + song);
+        logger.info("Play" + song);
         instrument.play();
     }
 
@@ -36,7 +39,7 @@ public class Instrumentalist implements Performer {
     }
 
     @Autowired
-    //@Auditorium.StringedInstrument
+   // @Auditorium.StringedInstrument
     private Instrument instrument;
 
    // @Autowired
@@ -52,8 +55,9 @@ public class Instrumentalist implements Performer {
 
 
     public static void main(String [] args){
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol.xml");
-        Instrumentalist author = (Instrumentalist)context.getBean("kenny");
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol2.xml");
+        PropertyConfigurator.configure("log4j11.properties");
+        Performer author = (Performer)context.getBean("kenny");
         author.perform();
     }
 }

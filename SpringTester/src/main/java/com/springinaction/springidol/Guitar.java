@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Guitar implements Instrument {
     public void play() {
-        System.out.println("BOON BOON BOON");
+        System.out.println(getClass().getName() + ": BOON BOON BOON");
     }
 }

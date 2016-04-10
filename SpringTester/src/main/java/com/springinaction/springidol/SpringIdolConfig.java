@@ -1,11 +1,10 @@
 package com.springinaction.springidol;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
 /**
  * Created by tianjiyuan on 16/3/27.
  */
+
+/*
 @Configuration
 public class SpringIdolConfig {
     @Bean
@@ -33,4 +32,4 @@ public class SpringIdolConfig {
     public Performer poeticDuke(){
         return new PoeticJuggler(sonnet29());
     }
-}
+}*/

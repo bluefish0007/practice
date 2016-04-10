@@ -1,22 +1,33 @@
 package com.springinaction.springidol;
 
+import com.bluefish.util.Bluefish;
+import org.apache.log4j.Logger;
+import org.aspectj.lang.ProceedingJoinPoint;
+
 /**
  * Created by tianjiyuan on 16/3/27.
  */
 public class Audience {
+    static Logger logger = Logger.getLogger(Audience.class);
     public void takeSeats(){
-        System.out.println("The Audience is taking their seats.");
+       // System.out.println("The Audience is taking their seats.");
+        Bluefish.out.println(this, "The Audience is taking their seats.");
     }
 
     public void turnOffCellPhones(){
-        System.out.println("turn Off CellPhones");
+        Bluefish.out.println(this, "turn Off CellPhones");
     }
 
     public void applaund(){
-        System.out.println("CLAP CLAP CLAP");
+        Bluefish.out.println(this , "CLAP CLAP CLAP");
     }
 
     public void demandRefound(){
-        System.out.println("Boo We want our money back");
+        Bluefish.out.println(this,"Boo We want our money back");
     }
+
+    /**
+     * Created by tianjiyuan on 16/3/29.
+     */
+
 }

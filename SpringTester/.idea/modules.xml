@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringTester.iml" filepath="$PROJECT_DIR$/SpringTester.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestLogger/TestLogger.iml" filepath="$PROJECT_DIR$/TestLogger/TestLogger.iml" />
     </modules>
   </component>
 </project>
