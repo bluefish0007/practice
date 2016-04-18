@@ -62,7 +62,7 @@ public class TimeClientNetty {
 			 byte[] byteCmd = new byte[byteBuf.readableBytes()];
 			 byteBuf.readBytes(byteCmd);
 			 String strCmd = new String(byteCmd, "utf-8");
-			 System.out.println("count : " + count + strCmd);
+			 System.out.println("count : " + count + " " + strCmd);
 		 }
 		 public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
 //			 ctx.close();

@@ -29,7 +29,7 @@
 
         <aop:pointcut id="think" expression="execution(* com.springinaction.springidol.Thinker.think(..)) and args(abc,efg)"/>
         <aop:aspect ref="mindReader">
-            <aop:before method="interceptThought" arg-names="efg,abc"  pointcut-ref="think"/>
+            <aop:before method="interceptThought" arg-names="abc,efg"  pointcut-ref="think"/>
         </aop:aspect>
 
         <aop:aspect>
